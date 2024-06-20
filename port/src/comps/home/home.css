@@ -111,3 +111,45 @@
     height: 1rem;
 }
 
+
+.heading{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FC6A03;
+}
+
+
+hr{
+    width: 50%; 
+    height: 1px; 
+    background-color: black; 
+    margin: 0 auto; 
+}
+
+
+.container_text{
+
+    @media (max-width: 768px){
+       width: 75%
+    }
+
+    width: 50%;
+    margin: 0 auto;
+
+    .text{
+        text-align: center;
+    }
+
+    .sig{
+        text-align: end;
+    }
+}
+
+.sigpic{
+    height: 120px;
+    width: 120px;
+    justify-content: end;
+    float: right;
+}

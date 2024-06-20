@@ -18,7 +18,7 @@ const Nav = styled.nav`
 
     .logo {
         text-decoration: none;
-        font-family: cursive;
+        font-family: cursive !important;
         height: 100px;
         line-height: 50px;
         text-align: center;
@@ -49,7 +49,7 @@ const Navbar = () => {
     return (
         <Nav>
             <div className="logo">
-                <a href="/"><h1>AS</h1></a>
+                <a href="/"><h1 style={{ fontFamily: 'cursive', fontWeight: 1000 }}>Aditya S.</h1></a>
             </div>
             <Burger />
         </Nav>
