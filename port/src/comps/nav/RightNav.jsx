@@ -1,11 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Home from '../home/Home';
+import Timeline from '../timeline/timeline';
+
 const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    z-index: 1;
+    z-index: 10;
 
     a:link {
         color: black;
@@ -60,7 +63,7 @@ const RightNav = ({ open }) => {
     return (
         <Ul open={open}>
             <a href="/"><li>Home</li></a>
-            <a href="http://www.google.com"><li>Timeline</li></a>
+            <a href="/timeline"><li>Timeline</li></a>
             <a href="http://www.google.com"><li>Socials</li></a>
         </Ul> 
     )
