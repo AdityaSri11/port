@@ -76,7 +76,7 @@
         text-align: center;
     }
     /* 769 */
-    @media (min-width: 1083px) and (max-width: 1276px) {
+    @media (min-width: 1083px) and (max-width: 1339px) {
         height: 500px
     }
     @media (min-width: 769px) and (max-width: 1082px) {
@@ -105,12 +105,11 @@
     cursor: pointer;
 }
 
-.ln{
+/* .ln{
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
-}
-
+} */
 
 .heading{
     padding-top: 25px;

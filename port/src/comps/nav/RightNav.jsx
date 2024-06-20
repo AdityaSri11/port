@@ -22,8 +22,8 @@ const Ul = styled.ul`
         color: black;
         li {
             font-weight: bolder;
-            text-decoration: underline 0.15em rgba(255, 255, 255, 0);
-            transition: text-decoration-color 550ms;
+            text-decoration: underline 0.15em #FC6A03;;
+            transition: text-decoration-color 350ms;
             font-size: 17px;
         }
     }
@@ -64,7 +64,7 @@ const RightNav = ({ open }) => {
         <Ul open={open}>
             <a href="/"><li>Home</li></a>
             <a href="/timeline"><li>Timeline</li></a>
-            <a href="http://www.google.com"><li>Socials</li></a>
+            <a href="/connect"><li>Socials</li></a>
         </Ul> 
     )
 }

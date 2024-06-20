@@ -1,0 +1,100 @@
+
+.col_con {
+    display: grid;
+    grid-template-columns: 0.75fr 0.25fr; 
+    gap: 20px; 
+    /* display: flex; */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.column {
+    padding: 10px; 
+    align-items: center;
+    text-align: center;
+}
+
+.textcontainer{
+    margin: auto auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: black;
+    color: white;
+}
+
+.lets{
+    font-size: 12rem;
+}
+.connect{
+    font-size: 10rem;
+}
+.per{
+    color: #FC6A03;
+}
+
+.s_btns{
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px 30px; 
+    font-size: 1.2rem; 
+    color: white; 
+    border: none; 
+    outline: none; 
+    cursor: pointer;
+    border-radius: 20px; 
+    background-color: black;
+
+    width: 200px;
+   
+}
+
+.s_btns{
+    max-width: 100%; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+    
+}
+
+.ln:hover {
+    background-color: #0072b1; /* Darker background color on hover */
+    color: white;
+}
+
+
+.s_btns img{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+.ig:hover {
+    background-color: #E1306C;
+}
+
+.git:hover{
+    background-color: #6e5494;
+}
+
+.mobcon{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .col_con {
+        display: block;
+    }
+    .mobcon{
+        display: block;
+        font-size: 5rem;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .textcontainer{
+        display: none;
+    }
+}
