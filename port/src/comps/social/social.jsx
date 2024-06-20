@@ -6,6 +6,9 @@ import ig from '../../assets/ig.webp';
 import gt from '../../assets/github-mark-white.png';
 import em from '../../assets/em.png';
 
+// import React, { useEffect, useState } from "react";
+
+
 const Social = () => {
 
     return (
