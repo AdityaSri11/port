@@ -22,21 +22,21 @@ const Social = () => {
                     </div>
                 </div>
                 <div class="column">
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/aditya-srikanth-472540117/" target="_blank">
                             <button className="s_btns ln">
                                 { <img className="ln" src= {ln} alt="Button Icon"/> }
                                 LinkedIn
                             </button>
                     </a>
                     <br className='breaks'/> <br className='breaks'/>
-                    <a href="">
+                    <a href="https://www.instagram.com/aditya.srikanth/" target="_blank">
                             <button className="s_btns ig">
                                 { <img className="ig" src= {ig} alt="Button Icon"/> }
                                 Instagram
                             </button>
                     </a>
                     <br className='breaks'/><br className='breaks'/>
-                    <a href="">
+                    <a href="https://github.com/AdityaSri11/" target="_blank">
                         <button className="s_btns git">
                             { <img className="git" src= {gt} alt="Button Icon"/> }
                             GitHub
